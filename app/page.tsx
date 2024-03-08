@@ -1,9 +1,13 @@
-import Image from "next/image";
+import Sidebar from "./sidebar.jsx";
+import Dashboard from "./dashboard.jsx";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Wallue
+    <main className="">
+      <div className="grid grid-cols-[20%_80%]">
+        <Sidebar />
+        <Dashboard />
+      </div>
     </main>
   );
 }
