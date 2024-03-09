@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="grid grid-cols-[15%_85%]">
+        <div className="grid grid-cols-[15%_85%] bg-blue-50">
           <Sidebar />
           {children},
         </div>

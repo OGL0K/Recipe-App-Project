@@ -52,8 +52,9 @@ export default function Dashboard() {
 
       <div className=" grid grid-cols-2">
         <p className="m-8 text-2xl font-extralight">Your Transactions</p>
-        <button className="m-8 flex items-end justify-end text-2xl font-extralight">
-          <p> Add an Event </p>
+        <button className="m-8 flex items-center justify-end gap-2 text-xl font-extralight">
+          <Image src={MoneyIcon} width={50} />
+          <p> Add an Transaction </p>
         </button>
       </div>
     </main>
