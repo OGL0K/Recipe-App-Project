@@ -1,3 +1,6 @@
+import Image from "next/image";
+import MoneyIcon from "../public/money.svg";
+
 export default function Dashboard() {
   const ColoredLine = () => (
     <hr
@@ -47,8 +50,11 @@ export default function Dashboard() {
 
       <ColoredLine />
 
-      <div>
+      <div className=" grid grid-cols-2">
         <p className="m-8 text-2xl font-extralight">Your Transactions</p>
+        <button className="m-8 flex items-end justify-end text-2xl font-extralight">
+          <p> Add an Event </p>
+        </button>
       </div>
     </main>
   );
